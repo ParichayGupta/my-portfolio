@@ -1,0 +1,174 @@
+.portfolio_color-palette {
+    color: rgb(216, 226, 238);
+    /* #d8e2ee */
+    color: rgb(176, 186, 203);
+    /* #b0bacb */
+    color: rgb(107, 118, 136);
+    /* #6b7688 */
+    color: rgb(24, 23, 25);
+    /* #181719 */
+    color: rgb(70, 54, 74);
+    /* #46364a */
+    color: rgb(48, 54, 148);
+    /* #303694 */
+}
+
+/* Styles for html and body*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Styles for Navigation bar*/
+.navbar-custom {
+    background-color: #d8e2ee;
+    margin-bottom: auto;
+}
+
+.navbar-brand {
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #303694;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: large;
+}
+
+.active,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active {
+    color: #303694;
+    font-weight: bolder;
+    transition: 0.5s ease-out;
+    letter-spacing: 2px;
+}
+
+/* Styles for Home section */
+#home {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: #b0bacb;
+}
+.row{
+    align-content: center;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.name-bubble {
+    width: fit-content;
+    height: fit-content;
+    padding-left: 25px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.hand-circle {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50px;
+    background-color: #d8e2ee;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+/* Animation For hand wave */
+.hand-wave {
+    font-size: xxx-large;
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+
+.designation-bubble{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 80px;
+    margin-left: 60px;
+    background-color: #fff;
+}
+
+.home-illustration-image{
+    width: fit-content;
+    height: fit-content;
+    background-color: #d8e2ee;
+    align-self: center;
+}
+
+
+
+/* Styles for Projects section */
+#projects {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: yellow;
+}
+
+/* Styles for Resume section */
+#resume {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: olivedrab;
+}
+
+
+/* Styles for Skills section */
+#skills {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: red;
+}
+
+
+/* Styles for about-me section */
+#about-me {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: pink;
+}
