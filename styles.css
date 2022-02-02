@@ -47,18 +47,29 @@ html {
 }
 
 /* Styles for Home section */
+
 #home {
     height: 100vh;
     padding-top: 60px;
     background-color: #b0bacb;
 }
-.row{
-    align-content: center;
+
+.home-section-content{
+    display: inline-block;
 }
+
+.content-left{
+    position: relative;
+    top: 150px;
+    left: 140px;
+    width: auto;
+    height: max-content;
+}
+
 .name-bubble {
     width: fit-content;
     height: fit-content;
-    padding-left: 25px;
+    padding-left: 15px;
     border-radius: 25px;
     background-color: #fff;
 }
@@ -69,8 +80,51 @@ html {
     border-radius: 50px;
     background-color: #d8e2ee;
     padding: 8px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
+
+.designation-bubble{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+
+/* Styles for Projects section */
+#projects {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: yellow;
+}
+
+/* Styles for Resume section */
+#resume {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: olivedrab;
+}
+
+
+/* Styles for Skills section */
+#skills {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: red;
+}
+
+
+/* Styles for about-me section */
+#about-me {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: pink;
+}
+
+
+
+/*Animations for home Section */
 
 /* Animation For hand wave */
 .hand-wave {
@@ -81,11 +135,10 @@ html {
     /* Change to speed up or slow down */
     animation-iteration-count: infinite;
     /* Never stop waving :) */
-    transform-origin: 70% 70%;
+    transform-origin: 80% 80%;
     /* Pivot around the bottom-left palm */
     display: inline-block;
 }
-
 @keyframes wave-animation {
     0% {
         transform: rotate(0.0deg)
@@ -120,51 +173,4 @@ html {
     100% {
         transform: rotate(0.0deg)
     }
-}
-
-.designation-bubble{
-    width: fit-content;
-    height: fit-content;
-    border-radius: 10px;
-    padding: 8px;
-    background-color: #fff;
-}
-
-.home-illustration-image{
-    width: fit-content;
-    height: fit-content;
-    background-color: #d8e2ee;
-    align-self: center;
-}
-
-
-
-/* Styles for Projects section */
-#projects {
-    height: 100vh;
-    padding-top: 60px;
-    background-color: yellow;
-}
-
-/* Styles for Resume section */
-#resume {
-    height: 100vh;
-    padding-top: 60px;
-    background-color: olivedrab;
-}
-
-
-/* Styles for Skills section */
-#skills {
-    height: 100vh;
-    padding-top: 60px;
-    background-color: red;
-}
-
-
-/* Styles for about-me section */
-#about-me {
-    height: 100vh;
-    padding-top: 60px;
-    background-color: pink;
 }
