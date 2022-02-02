@@ -47,81 +47,61 @@ html {
 }
 
 /* Styles for Home section */
-
 #home {
-    height: 100vh;
     padding-top: 60px;
     background-color: #b0bacb;
 }
 
-.home-section-content{
+.name-bubble{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.hello-name {
+   
     display: inline-block;
+} 
+.hello-name p{
+    margin: 0px;
+    padding: 0%;
 }
+.hello-name p h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: xx-large;    
+} 
 
-.content-left{
-    position: relative;
-    top: 150px;
-    left: 140px;
-    width: auto;
-    height: max-content;
-}
-
-.name-bubble {
-    width: fit-content;
-    height: fit-content;
-    padding-left: 15px;
-    border-radius: 25px;
-    background-color: #fff;
-}
-
-.hand-circle {
-    height: fit-content;
-    width: fit-content;
-    border-radius: 50px;
-    background-color: #d8e2ee;
-    padding: 8px;
-    margin-top: 15px;
-}
-
-.designation-bubble{
-    width: fit-content;
-    height: fit-content;
-    border-radius: 10px;
-    padding: 8px;
-    background-color: #fff;
-}
 
 
 /* Styles for Projects section */
 #projects {
-    height: 100vh;
     padding-top: 60px;
-    background-color: yellow;
+    background-color: #6b7688;
 }
 
 /* Styles for Resume section */
 #resume {
-    height: 100vh;
     padding-top: 60px;
-    background-color: olivedrab;
+    background-color: #d8e2ee;
 }
 
 
 /* Styles for Skills section */
 #skills {
-    height: 100vh;
     padding-top: 60px;
-    background-color: red;
+    background-color: #b0bacb;
 }
 
 
 /* Styles for about-me section */
 #about-me {
-    height: 100vh;
     padding-top: 60px;
-    background-color: pink;
+    background-color: #6b7688;
 }
-
 
 
 /*Animations for home Section */
@@ -129,6 +109,7 @@ html {
 /* Animation For hand wave */
 .hand-wave {
     font-size: xxx-large;
+    padding: 15px 5px 15px 0px;
     animation-name: wave-animation;
     /* Refers to the name of your @keyframes element below */
     animation-duration: 2.5s;
