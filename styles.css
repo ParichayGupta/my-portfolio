@@ -53,7 +53,6 @@ html {
 }
 
 .name-bubble{
-    display: flex;
     width: fit-content;
     height: fit-content;
     justify-content: center;
@@ -61,19 +60,11 @@ html {
     padding: 10px;
     border-radius: 20px;
 }
-.hello-name {
-    display: inline-block;
-} 
+
 .hello-name p{
     margin: 0px;
     padding: 0%;
 }
-.hello-name p h2{
-    margin: 0px;
-    padding: 0px;
-    font-size: xx-large;    
-} 
-
 
 
 /* Styles for Projects section */
@@ -119,6 +110,7 @@ html {
     /* Pivot around the bottom-left palm */
     display: inline-block;
 }
+
 @keyframes wave-animation {
     0% {
         transform: rotate(0.0deg)
