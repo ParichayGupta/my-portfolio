@@ -13,17 +13,18 @@
     /* #303694 */
 }
 
+
 /* Styles for html and body*/
-html {
+
+html,
+body {
     height: 100%;
     scroll-behavior: smooth;
 }
 
-body{
-    height: 100%;
-}
 
 /* Styles for Navigation bar*/
+
 .navbar-custom {
     background-color: #d8e2ee;
     margin-bottom: auto;
@@ -50,13 +51,15 @@ body{
     letter-spacing: 2px;
 }
 
+
 /* Styles for Home section */
+
 #home {
     padding-top: 60px;
     background-color: #b0bacb;
 }
 
-.name-bubble{
+.name-bubble {
     width: fit-content;
     height: fit-content;
     align-items: center;
@@ -64,34 +67,44 @@ body{
     border-radius: 20px;
 }
 
-.hello-name p{
+.hello-name p {
     margin: 0px;
     padding: 0%;
 }
 
 
-/* Styles for Projects section */
-#projects {
+/* Styles for about-me section */
+
+#about-me {
     padding-top: 60px;
     background-color: #6b7688;
 }
 
-/* Styles for Resume section */
-#resume {
+
+/* Styles for Work section */
+
+#work {
     padding-top: 60px;
-    background-color: #d8e2ee;
+    background-color: #6b7688;
 }
 
 
 /* Styles for Skills section */
+
 #skills {
     padding-top: 60px;
     background-color: #b0bacb;
 }
 
 
-/* Styles for about-me section */
-#about-me {
+/* Styles for Resume section */
+
+#resume {
+    padding-top: 60px;
+    background-color: #d8e2ee;
+}
+
+#contact {
     padding-top: 60px;
     background-color: #6b7688;
 }
@@ -99,7 +112,9 @@ body{
 
 /*Animations for home Section */
 
+
 /* Animation For hand wave */
+
 .hand-wave {
     padding: 15px 5px 15px 0px;
     animation-name: wave-animation;
@@ -117,32 +132,25 @@ body{
     0% {
         transform: rotate(0.0deg)
     }
-
     10% {
         transform: rotate(14.0deg)
     }
-
     /* The following five values can be played with to make the waving more or less extreme */
     20% {
         transform: rotate(-8.0deg)
     }
-
     30% {
         transform: rotate(14.0deg)
     }
-
     40% {
         transform: rotate(-4.0deg)
     }
-
     50% {
         transform: rotate(10.0deg)
     }
-
     60% {
         transform: rotate(0.0deg)
     }
-
     /* Reset for the last half to pause */
     100% {
         transform: rotate(0.0deg)
