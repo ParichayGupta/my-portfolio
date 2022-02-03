@@ -18,6 +18,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    min-height: 100%;
+}
+
 
 /* Styles for Navigation bar*/
 .navbar-custom {
@@ -52,13 +56,13 @@ html {
     background-color: #b0bacb;
 }
 
+
 .name-bubble{
     width: fit-content;
     height: fit-content;
-    justify-content: center;
     align-items: center;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .hello-name p{
@@ -98,8 +102,6 @@ html {
 
 /* Animation For hand wave */
 .hand-wave {
-    font-size: xxx-large;
-    padding: 15px 5px 15px 0px;
     animation-name: wave-animation;
     /* Refers to the name of your @keyframes element below */
     animation-duration: 2.5s;
