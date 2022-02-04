@@ -23,7 +23,6 @@
 // }).scroll();
 
 
-
 window.onscroll = function() { scrollIndecator() };
 
 function scrollIndecator() {
