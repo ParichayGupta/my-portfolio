@@ -51,10 +51,30 @@ body {
 }
 
 
+/* The progress container (grey background) */
+
+.progress-container {
+    position: fixed;
+    padding-top: 60px;
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+}
+
+
+/* The progress bar (scroll indicator) */
+
+.progress-bar {
+    height: 5px;
+    background: #303694;
+    width: 0%;
+}
+
+
 /* Styles for Home section */
 
 #home {
-    padding-top: 60px;
+    padding-top: 65px;
     background-color: #b0bacb;
 }
 
@@ -75,7 +95,7 @@ body {
 /* Styles for about-me section */
 
 #about-me {
-    padding-top: 60px;
+    padding-top: 65px;
     background-color: #6b7688;
 }
 
@@ -83,7 +103,7 @@ body {
 /* Styles for Work section */
 
 #work {
-    padding-top: 60px;
+    padding-top: 65px;
     background-color: #b0bacb;
 }
 
@@ -91,7 +111,7 @@ body {
 /* Styles for Skills section */
 
 #skills {
-    padding-top: 60px;
+    padding-top: 65px;
     background-color: #6b7688;
 }
 
@@ -99,12 +119,12 @@ body {
 /* Styles for Resume section */
 
 #resume {
-    padding-top: 60px;
+    padding-top: 65px;
     background-color: #d8e2ee;
 }
 
 #contact {
-    padding-top: 60px;
+    padding-top: 65px;
     background-color: #6b7688;
 }
 
